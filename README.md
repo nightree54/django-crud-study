@@ -21,3 +21,16 @@ Djangoを用いて開発した商品管理Webアプリケーションです。
 - Django
 - HTML / CSS
 - SQLite
+
+---
+
+## ■ セットアップ方法
+
+```bash
+git clone https://github.com/nightree54/django-crud-study.git
+cd django-product-crud
+
+pip install -r requirements.txt
+
+python manage.py migrate
+python manage.py runserver
