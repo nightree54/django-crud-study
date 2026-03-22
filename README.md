@@ -28,7 +28,7 @@ Djangoを用いて開発した商品管理Webアプリケーションです。
 
 ```bash
 git clone https://github.com/nightree54/django-crud-study.git
-cd django-product-crud
+cd django-crud-study
 
 pip install -r requirements.txt
 
