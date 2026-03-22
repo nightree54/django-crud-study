@@ -16,6 +16,26 @@ Djangoを用いて開発した商品管理Webアプリケーションです。
 
 ---
 
+## 📸 画面イメージ
+
+### ■ ユーザー向け画面
+
+![ユーザー画面](https://github.com/nightree54/project-images/blob/main/django_user_page.png)
+
+商品一覧の表示機能を実装。  
+CRUD操作（詳細・編集・削除）およびページネーションに対応。
+
+---
+
+### ■ 管理画面（Django Admin）
+
+![管理画面](https://github.com/nightree54/project-images/blob/main/django_admin_page.png)
+
+Django標準のAdmin機能を活用し、商品データの管理機能を実装。  
+画像のプレビュー表示にも対応。
+
+---
+
 ## ■ 使用技術
 - Python
 - Django
