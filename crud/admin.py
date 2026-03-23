@@ -8,10 +8,7 @@ class ProductAdmin(admin.ModelAdmin):
     list_filter = ('category',)
 
     def image(self, obj):
-        if obj.img:
-            return mark_safe(f'<img src="{obj.img.url}" style="width:100px;">')
-        else:
-            return mark_safe('<img src="/media/noImage.png" style="width:100px;">')
+        return mark_safe('<img src="{}" style="width:100px height:auto;">'.format(obj.img.url))
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = ('id', 'name')
